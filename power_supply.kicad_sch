@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c894cee9-22b8-4899-9ce3-36764963822d)
+
+  (paper "A4")
+
+  (title_block
+    (title "Poulpe_3d")
+    (date "2024-05-20")
+    (rev "A1")
+    (company "Pollen Robotics")
+  )
+
+  (lib_symbols
+  )
+
+)
