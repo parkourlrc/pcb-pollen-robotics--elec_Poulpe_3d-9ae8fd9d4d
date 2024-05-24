@@ -6,7 +6,7 @@
 
   (title_block
     (title "Poulpe_3d")
-    (date "2024-05-20")
+    (date "2024-05-23")
     (rev "A1")
     (company "Pollen Robotics")
   )
@@ -1577,7 +1577,7 @@
     )
   )
 
-  (bus_alias "PMW_A" (members "UH_A" "UL_A" "VH_A" "VL_A" "WH_A" "WL_A"))
+  (bus_alias "PWM_A" (members "UH_A" "UL_A" "VH_A" "VL_A" "WH_A" "WL_A"))
   (bus_alias "Sense_A" (members "Sense_U_A" "Sense_V_A"))
   (junction (at 96.52 226.06) (diameter 0) (color 0 0 0 0)
     (uuid 007ff652-a299-4a60-b5f5-a80a9aef0917)
@@ -4422,7 +4422,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ec9057fe-f2ca-4d7f-a56e-013185b23b7a)
   )
-  (label "{PMW_C}" (at 266.7 52.07 0) (fields_autoplaced)
+  (label "{PWM_C}" (at 266.7 52.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa154931-5c4a-4e59-a524-9ac62f9d3bd3)
   )
@@ -4463,7 +4463,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 96.52 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00d9d447-3843-4b34-9c33-99e7a34c3330)
-    (property "Reference" "#FLG07" (at 96.52 219.075 0)
+    (property "Reference" "#FLG011" (at 96.52 219.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 96.52 215.9 0)
@@ -4479,7 +4479,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#FLG07") (unit 1)
+          (reference "#FLG011") (unit 1)
         )
       )
     )
@@ -4488,7 +4488,7 @@
   (symbol (lib_id "Device:C_Small") (at 223.52 248.92 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 022c4cb8-e3c2-431d-ae74-364451bb893e)
-    (property "Reference" "C53" (at 227.33 246.38 0)
+    (property "Reference" "C67" (at 227.33 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u 6V3" (at 223.52 252.73 0)
@@ -4520,7 +4520,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C53") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
     )
@@ -4529,7 +4529,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 104.14 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 104e91a1-7b24-4fc7-8efa-1b4ef7517ecc)
-    (property "Reference" "#FLG08" (at 104.14 219.075 0)
+    (property "Reference" "#FLG012" (at 104.14 219.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 104.14 215.9 0)
@@ -4545,7 +4545,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#FLG08") (unit 1)
+          (reference "#FLG012") (unit 1)
         )
       )
     )
@@ -4554,7 +4554,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 120.65 160.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 133570c8-345b-4a63-8179-271c59fd838a)
-    (property "Reference" "TP6" (at 121.92 158.623 0)
+    (property "Reference" "TP20" (at 121.92 158.623 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_Flag" (at 121.92 159.893 0)
@@ -4570,7 +4570,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "TP6") (unit 1)
+          (reference "TP20") (unit 1)
         )
       )
     )
@@ -4579,7 +4579,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 247.65 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13afaeaa-3619-426e-b694-88c6d0213b75)
-    (property "Reference" "C46" (at 179.07 246.38 0)
+    (property "Reference" "C60" (at 179.07 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 180.34 250.19 0)
@@ -4611,7 +4611,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C46") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
     )
@@ -4620,7 +4620,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 88.9 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15004c05-ef5e-4502-8c3d-031414aca497)
-    (property "Reference" "#FLG06" (at 88.9 219.075 0)
+    (property "Reference" "#FLG010" (at 88.9 219.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 88.9 215.9 0)
@@ -4636,7 +4636,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#FLG06") (unit 1)
+          (reference "#FLG010") (unit 1)
         )
       )
     )
@@ -4645,7 +4645,7 @@
   (symbol (lib_id "power:GND") (at 308.61 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f2c5c55-a873-4ec6-a1b7-ed95eaf060a4)
-    (property "Reference" "#PWR0103" (at 308.61 195.58 0)
+    (property "Reference" "#PWR0149" (at 308.61 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 308.61 194.31 0)
@@ -4661,7 +4661,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -4670,7 +4670,7 @@
   (symbol (lib_id "power:+5V") (at 350.52 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2116258a-b663-44b6-bc20-f1ffd6f7ee75)
-    (property "Reference" "#PWR081" (at 354.33 38.1 0)
+    (property "Reference" "#PWR0130" (at 354.33 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 346.71 38.1 90)
@@ -4686,7 +4686,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -4695,7 +4695,7 @@
   (symbol (lib_id "Device:C_Small") (at 167.64 247.65 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2242e420-7a30-482b-9303-75c0992bcc14)
-    (property "Reference" "C45" (at 171.45 246.38 0)
+    (property "Reference" "C59" (at 171.45 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 185.42 240.03 0)
@@ -4727,7 +4727,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C45") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -4736,7 +4736,7 @@
   (symbol (lib_id "Library_Pollen:74LVC3G17") (at 279.4 175.26 180) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 225ae808-1307-48ac-a879-40fcdb8e80bd)
-    (property "Reference" "U6" (at 279.4 170.18 0)
+    (property "Reference" "U9" (at 279.4 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "74LVC3G17" (at 279.4 170.18 0)
@@ -4768,7 +4768,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "U6") (unit 3)
+          (reference "U9") (unit 3)
         )
       )
     )
@@ -4777,7 +4777,7 @@
   (symbol (lib_id "Device:C_Small") (at 190.5 247.65 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22a45054-f3c6-4909-8bdc-b65195c36825)
-    (property "Reference" "C48" (at 194.31 246.38 0)
+    (property "Reference" "C62" (at 194.31 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 195.58 250.19 0)
@@ -4809,7 +4809,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C48") (unit 1)
+          (reference "C62") (unit 1)
         )
       )
     )
@@ -4818,7 +4818,7 @@
   (symbol (lib_id "power:GND") (at 88.9 238.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22db7d33-8a80-45e9-b20e-d73bdb7e9599)
-    (property "Reference" "#PWR0109" (at 88.9 245.11 0)
+    (property "Reference" "#PWR0155" (at 88.9 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 243.84 0)
@@ -4834,7 +4834,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -4843,7 +4843,7 @@
   (symbol (lib_id "power:GND") (at 93.98 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c69cdc9-350b-45ff-af8a-8878c31ad201)
-    (property "Reference" "#PWR085" (at 93.98 69.85 0)
+    (property "Reference" "#PWR0134" (at 93.98 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 68.58 0)
@@ -4859,7 +4859,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -4868,7 +4868,7 @@
   (symbol (lib_id "Library_Pollen:74LVC3G17") (at 279.4 193.04 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dda2382-28f5-4a39-81d9-2bb63e625999)
-    (property "Reference" "U6" (at 276.86 201.93 0)
+    (property "Reference" "U9" (at 276.86 201.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "74LVC3G17" (at 283.21 193.04 0)
@@ -4900,7 +4900,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "U6") (unit 4)
+          (reference "U9") (unit 4)
         )
       )
     )
@@ -4909,7 +4909,7 @@
   (symbol (lib_id "power:GND") (at 312.42 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3168ef00-318d-433d-9703-99ef758501d6)
-    (property "Reference" "#PWR0104" (at 312.42 195.58 0)
+    (property "Reference" "#PWR0150" (at 312.42 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 312.42 194.31 0)
@@ -4925,7 +4925,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -4934,7 +4934,7 @@
   (symbol (lib_id "Device:C_Small") (at 137.16 248.92 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 330ad11f-95c1-4795-943a-f095639afe3c)
-    (property "Reference" "C51" (at 133.35 246.38 0)
+    (property "Reference" "C65" (at 133.35 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 130.81 251.46 0)
@@ -4966,7 +4966,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C51") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
     )
@@ -4975,7 +4975,7 @@
   (symbol (lib_id "Device:R_Small") (at 317.5 124.46 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 330c25a7-62f0-4dcf-a944-92f6a2c3f0d9)
-    (property "Reference" "R37" (at 321.31 121.92 0)
+    (property "Reference" "R25" (at 321.31 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4k7" (at 321.31 124.46 0)
@@ -5007,7 +5007,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "R37") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -5016,7 +5016,7 @@
   (symbol (lib_id "power:GND") (at 316.23 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3365c4cc-071d-4985-adef-95a830a21ea3)
-    (property "Reference" "#PWR0105" (at 316.23 195.58 0)
+    (property "Reference" "#PWR0151" (at 316.23 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 316.23 194.31 0)
@@ -5032,7 +5032,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -5041,7 +5041,7 @@
   (symbol (lib_id "Device:C_Small") (at 266.7 195.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35cca3cc-10ab-4de0-8149-eeedb4effe3e)
-    (property "Reference" "C41" (at 261.62 194.31 0)
+    (property "Reference" "C55" (at 261.62 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 259.08 196.85 0)
@@ -5073,7 +5073,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C41") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -5082,7 +5082,7 @@
   (symbol (lib_id "Library_Pollen:74LVC3G17") (at 269.24 160.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3be678e6-a29e-4cd2-9d97-33f620f3ba83)
-    (property "Reference" "U6" (at 265.43 154.94 0)
+    (property "Reference" "U9" (at 265.43 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC3G17" (at 276.86 154.94 0)
@@ -5114,7 +5114,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "U6") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -5123,7 +5123,7 @@
   (symbol (lib_id "Library_Pollen:74LVC3G17") (at 274.32 167.64 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4056015e-f1c6-4249-808e-3cd227799a47)
-    (property "Reference" "U6" (at 274.32 162.56 0)
+    (property "Reference" "U9" (at 274.32 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "74LVC3G17" (at 274.32 162.56 0)
@@ -5155,7 +5155,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "U6") (unit 2)
+          (reference "U9") (unit 2)
         )
       )
     )
@@ -5164,7 +5164,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 316.23 182.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43d54d6a-5e1f-4494-8530-0f23b8e302c4)
-    (property "Reference" "D11" (at 316.23 179.07 90)
+    (property "Reference" "D16" (at 316.23 179.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Schottky" (at 320.04 182.5625 0)
@@ -5190,7 +5190,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "D11") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -5199,7 +5199,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 317.5 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 446f9175-5327-4add-80d9-37f32ac7c867)
-    (property "Reference" "#PWR095" (at 317.5 140.97 0)
+    (property "Reference" "#PWR0143" (at 317.5 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 317.5 139.7 0)
@@ -5215,7 +5215,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -5224,7 +5224,7 @@
   (symbol (lib_id "power:GND") (at 76.2 274.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f4bb01e-2cbc-4759-895b-86a190035745)
-    (property "Reference" "#PWR0120" (at 76.2 280.67 0)
+    (property "Reference" "#PWR0166" (at 76.2 280.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 279.4 0)
@@ -5240,7 +5240,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -5249,7 +5249,7 @@
   (symbol (lib_id "Device:C_Small") (at 104.14 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52b382e3-52bf-41c7-8668-d83fc47b4447)
-    (property "Reference" "C44" (at 107.95 231.14 0)
+    (property "Reference" "C58" (at 107.95 231.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 110.49 236.22 0)
@@ -5281,7 +5281,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C44") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -5290,7 +5290,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 93.98 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5870f519-97f4-4bd7-8722-aa5c834328f6)
-    (property "Reference" "#PWR082" (at 93.98 46.99 0)
+    (property "Reference" "#PWR0131" (at 93.98 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 88.9 40.64 0)
@@ -5306,7 +5306,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -5315,7 +5315,7 @@
   (symbol (lib_id "Device:LED") (at 212.09 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b3c143e-57f7-4f8c-8082-6a2a9621ba68)
-    (property "Reference" "D8" (at 209.55 65.9554 90)
+    (property "Reference" "D13" (at 209.55 65.9554 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Green" (at 208.915 61.9126 90)
@@ -5347,7 +5347,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "D8") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -5356,7 +5356,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 317.5 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d967891-5553-4181-be72-1bb36a94e4c0)
-    (property "Reference" "#PWR092" (at 317.5 110.49 0)
+    (property "Reference" "#PWR0140" (at 317.5 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 317.5 101.6 0)
@@ -5372,7 +5372,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -5381,7 +5381,7 @@
   (symbol (lib_id "power:GND") (at 142.24 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61115181-e409-475a-9bd6-31f94419ed42)
-    (property "Reference" "#PWR0101" (at 142.24 194.31 0)
+    (property "Reference" "#PWR0147" (at 142.24 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 193.04 0)
@@ -5397,7 +5397,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -5406,7 +5406,7 @@
   (symbol (lib_id "Device:C_Small") (at 88.9 233.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65184ffb-65fe-4a48-aa3c-f335fe008aca)
-    (property "Reference" "C42" (at 91.44 231.14 0)
+    (property "Reference" "C56" (at 91.44 231.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 81.28 234.95 0)
@@ -5438,7 +5438,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C42") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -5447,7 +5447,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 212.09 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68c4aa20-4cd9-4125-a145-bd91f47e5eed)
-    (property "Reference" "#PWR084" (at 212.09 53.34 0)
+    (property "Reference" "#PWR0133" (at 212.09 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 54.61 0)
@@ -5463,7 +5463,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -5472,7 +5472,7 @@
   (symbol (lib_id "Library_Pollen:TMC4671-LA") (at 144.78 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b5eb826-e97b-400e-b1b3-d93540edf8ff)
-    (property "Reference" "U5" (at 177.8 73.66 0)
+    (property "Reference" "U8" (at 177.8 73.66 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "TMC4671" (at 177.8 76.2 0)
@@ -5570,7 +5570,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "U5") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -5579,7 +5579,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin") (at 322.58 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72466fe0-d4de-46f1-8dc8-7d263e70161b)
-    (property "Reference" "J11" (at 325.12 154.0256 0)
+    (property "Reference" "J15" (at 325.12 154.0256 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Pico5" (at 325.12 156.5656 0)
@@ -5609,7 +5609,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "J11") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -5618,7 +5618,7 @@
   (symbol (lib_id "Oscillator:ASE-xxxMHz") (at 81.28 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 745cc999-830b-4438-b156-3eb136f4900d)
-    (property "Reference" "X2" (at 77.47 77.47 0)
+    (property "Reference" "X4" (at 77.47 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "25MHz" (at 88.9 77.47 0)
@@ -5652,7 +5652,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "X2") (unit 1)
+          (reference "X4") (unit 1)
         )
       )
     )
@@ -5661,7 +5661,7 @@
   (symbol (lib_id "power:GND") (at 266.7 200.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75746345-b7c7-422b-b105-46741abb1976)
-    (property "Reference" "#PWR0106" (at 266.7 207.01 0)
+    (property "Reference" "#PWR0152" (at 266.7 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 205.74 0)
@@ -5677,7 +5677,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -5686,7 +5686,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 350.52 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7804b5c0-6616-451b-84c4-9eb447bc4c4c)
-    (property "Reference" "#PWR079" (at 344.17 33.02 0)
+    (property "Reference" "#PWR0129" (at 344.17 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 345.44 33.02 0)
@@ -5702,7 +5702,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -5711,7 +5711,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 120.65 165.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 805a8d46-fd97-4d92-bb23-75aa2dc84231)
-    (property "Reference" "TP13" (at 121.92 163.703 0)
+    (property "Reference" "TP22" (at 121.92 163.703 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_Flag" (at 121.92 164.973 0)
@@ -5727,7 +5727,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "TP13") (unit 1)
+          (reference "TP22") (unit 1)
         )
       )
     )
@@ -5736,7 +5736,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 219.71 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 812e4362-8bd2-4091-9909-5cbb5fd666e2)
-    (property "Reference" "TP10" (at 218.44 82.423 0)
+    (property "Reference" "TP18" (at 218.44 82.423 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_Flag" (at 218.44 83.693 0)
@@ -5752,7 +5752,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "TP10") (unit 1)
+          (reference "TP18") (unit 1)
         )
       )
     )
@@ -5761,7 +5761,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 63.5 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84e20a79-3fb8-459f-a3dd-e021c419d097)
-    (property "Reference" "#PWR087" (at 63.5 82.55 0)
+    (property "Reference" "#PWR0136" (at 63.5 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 63.5 73.66 0)
@@ -5777,7 +5777,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -5786,7 +5786,7 @@
   (symbol (lib_id "power:GND") (at 139.7 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84fe0d6c-9d9c-4399-9b52-50755cb29f75)
-    (property "Reference" "#PWR094" (at 133.35 132.08 0)
+    (property "Reference" "#PWR0142" (at 133.35 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 132.08 0)
@@ -5802,7 +5802,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -5811,7 +5811,7 @@
   (symbol (lib_name "+5V_1") (lib_id "power:+5V") (at 308.61 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 852d0e1f-6b3c-4195-a1f8-1699191324e2)
-    (property "Reference" "#PWR098" (at 312.42 152.4 0)
+    (property "Reference" "#PWR0145" (at 312.42 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 304.8 152.4 90)
@@ -5827,7 +5827,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -5836,7 +5836,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 120.65 157.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85ddd9c9-73c6-44b3-98d1-57e62a208716)
-    (property "Reference" "TP4" (at 121.92 156.083 0)
+    (property "Reference" "TP19" (at 121.92 156.083 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_Flag" (at 121.92 157.353 0)
@@ -5852,7 +5852,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "TP4") (unit 1)
+          (reference "TP19") (unit 1)
         )
       )
     )
@@ -5861,7 +5861,7 @@
   (symbol (lib_id "power:GND") (at 96.52 238.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 872ccd04-b27f-4590-8f77-e7c5ef4430ad)
-    (property "Reference" "#PWR0110" (at 96.52 245.11 0)
+    (property "Reference" "#PWR0156" (at 96.52 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 243.84 0)
@@ -5877,7 +5877,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -5886,7 +5886,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin") (at 327.66 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ae155e0-812f-4a97-aab0-20e7b265f988)
-    (property "Reference" "J9" (at 330.2 109.5756 0)
+    (property "Reference" "J14" (at 330.2 109.5756 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Pico 2" (at 330.2 112.1156 0)
@@ -5919,7 +5919,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "J9") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -5928,7 +5928,7 @@
   (symbol (lib_id "Device:C_Small") (at 182.88 247.65 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d8464e8-3104-4608-ab37-6e765d09aa31)
-    (property "Reference" "C47" (at 186.69 246.38 0)
+    (property "Reference" "C61" (at 186.69 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 187.96 250.19 0)
@@ -5960,7 +5960,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C47") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
     )
@@ -5969,7 +5969,7 @@
   (symbol (lib_id "power:+3V3") (at 223.52 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f365ff1-316b-46fb-a805-3a07f5faffdd)
-    (property "Reference" "#PWR0114" (at 223.52 247.65 0)
+    (property "Reference" "#PWR0160" (at 223.52 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 223.52 238.76 0)
@@ -5985,7 +5985,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -5994,7 +5994,7 @@
   (symbol (lib_id "Device:C_Small") (at 96.52 233.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 921f1ca8-dc60-4985-b521-8e6ae0282656)
-    (property "Reference" "C43" (at 99.06 231.14 0)
+    (property "Reference" "C57" (at 99.06 231.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 88.9 234.95 0)
@@ -6026,7 +6026,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C43") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -6035,7 +6035,7 @@
   (symbol (lib_id "power:GND") (at 63.5 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98a71613-8fde-4755-9814-8141933076f3)
-    (property "Reference" "#PWR089" (at 63.5 95.25 0)
+    (property "Reference" "#PWR0137" (at 63.5 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 93.98 0)
@@ -6051,7 +6051,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -6060,7 +6060,7 @@
   (symbol (lib_id "Device:R_Small") (at 212.09 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1a3c966-a4ab-4255-8593-8fb6a3e3bce3)
-    (property "Reference" "R35" (at 208.915 74.2104 0)
+    (property "Reference" "R23" (at 208.915 74.2104 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470R" (at 208.28 70.4004 0)
@@ -6092,7 +6092,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "R35") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -6101,7 +6101,7 @@
   (symbol (lib_id "Device:R_Small") (at 93.98 48.26 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2ebc6a7-7273-43b4-8d04-81e447a3e3ad)
-    (property "Reference" "R34" (at 91.44 46.9899 0)
+    (property "Reference" "R22" (at 91.44 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 91.44 49.5299 0)
@@ -6133,7 +6133,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "R34") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -6142,7 +6142,7 @@
   (symbol (lib_id "Library_Pollen:TMC4671-LA") (at 71.12 220.98 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid acc5efac-ce7d-4ab0-9d12-c1f8abfdda82)
-    (property "Reference" "U5" (at 46.99 245.11 0)
+    (property "Reference" "U8" (at 46.99 245.11 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "TMC4671" (at 46.99 247.65 0)
@@ -6240,7 +6240,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "U5") (unit 2)
+          (reference "U8") (unit 2)
         )
       )
     )
@@ -6249,7 +6249,7 @@
   (symbol (lib_id "Device:C_Small") (at 233.68 248.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad816355-9bba-4468-a593-9b9b6c0be652)
-    (property "Reference" "C54" (at 237.49 246.38 0)
+    (property "Reference" "C68" (at 237.49 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n 6V3" (at 234.95 252.73 0)
@@ -6281,7 +6281,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C54") (unit 1)
+          (reference "C68") (unit 1)
         )
       )
     )
@@ -6290,7 +6290,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x20") (at 360.68 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad99bdcb-28ff-47e9-bee1-3bd58c6c045c)
-    (property "Reference" "J8" (at 363.22 55.88 0)
+    (property "Reference" "J13" (at 363.22 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SlimStack Receptacle" (at 363.22 58.42 0)
@@ -6331,7 +6331,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "J8") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -6340,7 +6340,7 @@
   (symbol (lib_id "Device:C_Small") (at 93.98 58.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb95883b-0f93-4510-9160-d357f64808bf)
-    (property "Reference" "C38" (at 91.44 57.1562 0)
+    (property "Reference" "C52" (at 91.44 57.1562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n 6V3" (at 91.44 59.6962 0)
@@ -6372,7 +6372,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C38") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -6381,7 +6381,7 @@
   (symbol (lib_id "Device:C_Small") (at 63.5 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcd02e60-8460-4718-8263-858d16197cc0)
-    (property "Reference" "C39" (at 58.42 85.09 0)
+    (property "Reference" "C53" (at 58.42 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 55.88 82.55 0)
@@ -6413,7 +6413,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C39") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -6422,7 +6422,7 @@
   (symbol (lib_id "power:GND") (at 104.14 238.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3a1122c-825f-423d-946b-ab8d326d51d3)
-    (property "Reference" "#PWR0111" (at 104.14 245.11 0)
+    (property "Reference" "#PWR0157" (at 104.14 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 243.84 0)
@@ -6438,7 +6438,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -6447,7 +6447,7 @@
   (symbol (lib_id "power:+3V3") (at 233.68 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c40124e1-1dac-40e4-8c7e-f662b37ac57e)
-    (property "Reference" "#PWR0115" (at 233.68 247.65 0)
+    (property "Reference" "#PWR0161" (at 233.68 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 233.68 238.76 0)
@@ -6463,7 +6463,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -6472,7 +6472,7 @@
   (symbol (lib_id "power:+3V3") (at 167.64 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5681f91-ede0-4ccc-87c6-4aa5db7752d0)
-    (property "Reference" "#PWR0113" (at 167.64 245.11 0)
+    (property "Reference" "#PWR0159" (at 167.64 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 167.64 236.22 0)
@@ -6488,7 +6488,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -6497,7 +6497,7 @@
   (symbol (lib_id "power:GND") (at 81.28 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6f1d91a-adf0-4bfc-b948-25286b4b056e)
-    (property "Reference" "#PWR090" (at 81.28 99.06 0)
+    (property "Reference" "#PWR0138" (at 81.28 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 97.79 0)
@@ -6513,7 +6513,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -6522,7 +6522,7 @@
   (symbol (lib_id "power:GND") (at 147.32 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccf038c6-e2e9-41d6-89f9-ed32b5c403c0)
-    (property "Reference" "#PWR0117" (at 147.32 262.89 0)
+    (property "Reference" "#PWR0163" (at 147.32 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 261.62 0)
@@ -6538,7 +6538,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -6547,7 +6547,7 @@
   (symbol (lib_id "power:GND") (at 322.58 166.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd0092a9-88c1-4f39-9d2e-9caaea910762)
-    (property "Reference" "#PWR0100" (at 322.58 172.72 0)
+    (property "Reference" "#PWR0146" (at 322.58 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 322.58 171.45 0)
@@ -6563,7 +6563,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -6572,7 +6572,7 @@
   (symbol (lib_id "power:GND") (at 167.64 254 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce607a61-821b-4faa-953a-e71cf051a329)
-    (property "Reference" "#PWR0116" (at 167.64 260.35 0)
+    (property "Reference" "#PWR0162" (at 167.64 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 259.08 0)
@@ -6588,7 +6588,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -6597,7 +6597,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 266.7 187.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cee75f8d-4e2f-4a8c-9987-160ec954aeec)
-    (property "Reference" "#PWR0102" (at 266.7 191.77 0)
+    (property "Reference" "#PWR0148" (at 266.7 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 266.7 182.88 0)
@@ -6613,7 +6613,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -6622,7 +6622,7 @@
   (symbol (lib_id "Device:R_Small") (at 133.35 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf36c062-4c9d-45c9-b4f5-91aab0dcd716)
-    (property "Reference" "R36" (at 137.16 95.25 90)
+    (property "Reference" "R24" (at 137.16 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 129.54 95.25 90)
@@ -6654,7 +6654,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "R36") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -6663,7 +6663,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 120.65 162.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d54cff14-ef23-4893-b00c-1934651b1a47)
-    (property "Reference" "TP12" (at 121.92 161.163 0)
+    (property "Reference" "TP21" (at 121.92 161.163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_Flag" (at 121.92 162.433 0)
@@ -6679,7 +6679,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "TP12") (unit 1)
+          (reference "TP21") (unit 1)
         )
       )
     )
@@ -6688,7 +6688,7 @@
   (symbol (lib_id "power:GND") (at 307.34 149.86 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d87842e5-83ac-4a00-b6db-f8400740ce1f)
-    (property "Reference" "#PWR097" (at 300.99 149.86 0)
+    (property "Reference" "#PWR0144" (at 300.99 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.26 149.86 0)
@@ -6704,7 +6704,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -6713,7 +6713,7 @@
   (symbol (lib_id "power:GND") (at 223.52 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d99dd83f-6fb3-4f73-b2f0-f461735a8971)
-    (property "Reference" "#PWR0118" (at 223.52 262.89 0)
+    (property "Reference" "#PWR0164" (at 223.52 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 261.62 0)
@@ -6729,7 +6729,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -6738,7 +6738,7 @@
   (symbol (lib_id "Device:C_Small") (at 208.28 247.65 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db6d6141-da7c-441b-b8dc-35b81b354cb7)
-    (property "Reference" "C50" (at 212.09 246.38 0)
+    (property "Reference" "C64" (at 212.09 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 213.36 250.19 0)
@@ -6770,7 +6770,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C50") (unit 1)
+          (reference "C64") (unit 1)
         )
       )
     )
@@ -6779,7 +6779,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 350.52 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1e584ae-5e55-4181-a3ba-73bedce36cd2)
-    (property "Reference" "#PWR083" (at 354.33 43.18 0)
+    (property "Reference" "#PWR0132" (at 354.33 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 346.71 43.18 90)
@@ -6795,7 +6795,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -6804,7 +6804,7 @@
   (symbol (lib_name "+5V_1") (lib_id "power:+5V") (at 73.66 218.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7d0a6bd-5fed-43c9-908c-ae41f7a21ee5)
-    (property "Reference" "#PWR0107" (at 73.66 222.25 0)
+    (property "Reference" "#PWR0153" (at 73.66 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 76.2 214.63 0)
@@ -6820,7 +6820,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -6829,7 +6829,7 @@
   (symbol (lib_id "Device:C_Small") (at 199.39 247.65 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb8a2fad-4e65-42e9-8c3b-c054b6e0fc64)
-    (property "Reference" "C49" (at 203.2 246.38 0)
+    (property "Reference" "C63" (at 203.2 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 204.47 250.19 0)
@@ -6861,7 +6861,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C49") (unit 1)
+          (reference "C63") (unit 1)
         )
       )
     )
@@ -6870,7 +6870,7 @@
   (symbol (lib_id "Device:C_Small") (at 309.88 124.46 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee6f7cdb-21cd-4129-8204-3c01e1e98f24)
-    (property "Reference" "C40" (at 306.07 123.19 0)
+    (property "Reference" "C54" (at 306.07 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 303.53 127 0)
@@ -6902,7 +6902,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C40") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -6911,7 +6911,7 @@
   (symbol (lib_name "+5V_1") (lib_id "power:+5V") (at 147.32 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efe2897e-6320-4eb4-b675-6421272d18e4)
-    (property "Reference" "#PWR0112" (at 147.32 245.11 0)
+    (property "Reference" "#PWR0158" (at 147.32 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 144.78 237.49 0)
@@ -6927,7 +6927,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -6936,7 +6936,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 81.28 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f32b49db-9d05-4dc4-92fc-136e4fbb1fd0)
-    (property "Reference" "#PWR086" (at 81.28 77.47 0)
+    (property "Reference" "#PWR0135" (at 81.28 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 76.2 69.85 0)
@@ -6952,7 +6952,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -6961,7 +6961,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 120.65 167.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f43d7a66-69a7-465e-b832-a6ff28a20834)
-    (property "Reference" "TP14" (at 121.92 166.243 0)
+    (property "Reference" "TP23" (at 121.92 166.243 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_Flag" (at 121.92 167.513 0)
@@ -6977,7 +6977,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "TP14") (unit 1)
+          (reference "TP23") (unit 1)
         )
       )
     )
@@ -6986,7 +6986,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 312.42 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5a99023-f1bc-4d7f-a3d1-8f5ec5d9fc87)
-    (property "Reference" "D10" (at 312.42 175.26 90)
+    (property "Reference" "D15" (at 312.42 175.26 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Schottky" (at 316.23 178.7525 0)
@@ -7012,7 +7012,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "D10") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -7021,7 +7021,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 81.28 218.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f62777ae-7729-40f3-b97c-012eecdd1895)
-    (property "Reference" "#PWR0108" (at 81.28 222.25 0)
+    (property "Reference" "#PWR0154" (at 81.28 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 81.28 213.36 0)
@@ -7037,7 +7037,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -7046,7 +7046,7 @@
   (symbol (lib_id "power:GND") (at 233.68 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7e231c1-a110-4bba-82db-41da8ee178e6)
-    (property "Reference" "#PWR0119" (at 233.68 262.89 0)
+    (property "Reference" "#PWR0165" (at 233.68 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 261.62 0)
@@ -7062,7 +7062,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -7071,7 +7071,7 @@
   (symbol (lib_id "power:GND") (at 125.73 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f95e1800-bb63-4904-a960-bed4b9d4f55e)
-    (property "Reference" "#PWR091" (at 119.38 93.98 0)
+    (property "Reference" "#PWR0139" (at 119.38 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 93.98 0)
@@ -7087,7 +7087,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -7096,7 +7096,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 327.66 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa9d18a1-bf61-4581-93ad-baf74e17f3c3)
-    (property "Reference" "#PWR093" (at 327.66 124.46 0)
+    (property "Reference" "#PWR0141" (at 327.66 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 327.66 123.19 0)
@@ -7112,7 +7112,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -7121,7 +7121,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 308.61 175.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc20d23e-faf8-4925-af34-7bcb60648cd2)
-    (property "Reference" "D9" (at 308.61 171.45 90)
+    (property "Reference" "D14" (at 308.61 171.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Schottky" (at 312.42 174.9425 0)
@@ -7147,7 +7147,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "D9") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -7156,7 +7156,7 @@
   (symbol (lib_id "Device:C_Small") (at 147.32 248.92 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fed282e9-bf69-4a3b-944b-c47fcd26e8c4)
-    (property "Reference" "C52" (at 151.13 246.38 0)
+    (property "Reference" "C66" (at 151.13 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u 6V3" (at 153.67 251.46 0)
@@ -7188,7 +7188,7 @@
     (instances
       (project "elec_Poulpe_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/85ebd9a5-4e10-42a4-b858-91478b5ef71f"
-          (reference "C52") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
     )

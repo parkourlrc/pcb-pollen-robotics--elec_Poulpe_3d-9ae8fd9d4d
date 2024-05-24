@@ -479,10 +479,6 @@
       "Sensors"
     ],
     [
-      "80f10f36-cf38-4d13-8d0d-928ca044e10d",
-      "EtherCAT"
-    ],
-    [
       "52851a93-8f3b-4376-98b9-5888ab147840",
       "FOC Controller A"
     ],
@@ -493,6 +489,14 @@
     [
       "85ebd9a5-4e10-42a4-b858-91478b5ef71f",
       "FOC Controller C"
+    ],
+    [
+      "80f10f36-cf38-4d13-8d0d-928ca044e10d",
+      "EtherCAT"
+    ],
+    [
+      "e9b37503-64bd-4e51-8224-69c7137bd806",
+      "Dynamixel"
     ]
   ],
   "text_variables": {}
