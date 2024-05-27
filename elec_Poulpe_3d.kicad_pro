@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "elec_Poulpe_3d.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -500,16 +500,16 @@
       "FOC Controller A"
     ],
     [
-      "c09efd22-4014-445d-920c-7460795cb498",
+      "8eb51535-5d23-4a0c-93b9-af2d956b4998",
       "FOC Controller B"
-    ],
-    [
-      "85ebd9a5-4e10-42a4-b858-91478b5ef71f",
-      "FOC Controller C"
     ],
     [
       "80f10f36-cf38-4d13-8d0d-928ca044e10d",
       "EtherCAT"
+    ],
+    [
+      "5e32257f-6614-4dfe-8f9e-c69d457513f9",
+      "FOC Controller C"
     ],
     [
       "e9b37503-64bd-4e51-8224-69c7137bd806",

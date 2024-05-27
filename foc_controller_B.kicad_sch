@@ -348,66 +348,6 @@
         )
       )
     )
-    (symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x02_MountingPin" (at 1.27 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??-1MP*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x02_MountingPin_1_1"
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -4.572)
-            (xy 1.016 -4.572)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (text "Mounting" (at 0 -4.191 0)
-          (effects (font (size 0.381 0.381)))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -7.62 90) (length 3.048)
-          (name "MountPin" (effects (font (size 1.27 1.27))))
-          (number "MP" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector_Generic_MountingPin:Conn_01x05_MountingPin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
@@ -1595,9 +1535,6 @@
   (junction (at 147.32 254) (diameter 0) (color 0 0 0 0)
     (uuid 1daebd67-0658-4e6c-b364-b11e2798cacd)
   )
-  (junction (at 317.5 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid 23116bb3-c71e-4065-b1ef-cd8c159ee1f9)
-  )
   (junction (at 104.14 223.52) (diameter 0) (color 0 0 0 0)
     (uuid 286e3a28-1d00-42a3-9e77-e52f179113c2)
   )
@@ -1631,9 +1568,6 @@
   (junction (at 93.98 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 570e8113-3abc-40ac-bc58-b0d7235fe329)
   )
-  (junction (at 317.5 132.08) (diameter 0) (color 0 0 0 0)
-    (uuid 597f4b60-594a-471a-a646-4594088007a3)
-  )
   (junction (at 175.26 251.46) (diameter 0) (color 0 0 0 0)
     (uuid 72a49c0e-17fd-4e74-8bee-35d5a3386dc5)
   )
@@ -1651,9 +1585,6 @@
   )
   (junction (at 312.42 157.48) (diameter 0) (color 0 0 0 0)
     (uuid 81068b5c-70ba-4d7a-aa17-31c8f731ea2e)
-  )
-  (junction (at 309.88 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid 88c6a261-42c0-4365-81e6-15d5a6152f1b)
   )
   (junction (at 182.88 243.84) (diameter 0) (color 0 0 0 0)
     (uuid 8d3a9d07-f024-4777-8967-cabe0b15d921)
@@ -1891,10 +1822,6 @@
     (stroke (width 0) (type default))
     (uuid 1ef5f924-0bcd-449e-a07e-a08a44a09d51)
   )
-  (wire (pts (xy 309.88 114.3) (xy 309.88 121.92))
-    (stroke (width 0) (type default))
-    (uuid 1f889eb4-78cb-4aec-a9c6-481435cd58ef)
-  )
   (wire (pts (xy 208.28 250.19) (xy 208.28 251.46))
     (stroke (width 0) (type default))
     (uuid 204970f6-7891-4f13-8f80-2abc29baa476)
@@ -2022,10 +1949,6 @@
     (stroke (width 0) (type default))
     (uuid 3fa23ddd-dc8b-4e4f-9e53-e9def2eb2c06)
   )
-  (wire (pts (xy 317.5 132.08) (xy 317.5 127))
-    (stroke (width 0) (type default))
-    (uuid 40b37bf9-2c9c-4401-9ac0-1709267c1f85)
-  )
   (wire (pts (xy 312.42 157.48) (xy 312.42 175.26))
     (stroke (width 0) (type default))
     (uuid 4132a3ef-c301-47d5-96fd-214cdd6ad97a)
@@ -2035,10 +1958,6 @@
     (uuid 4216cb69-e033-4890-8f30-b5b5e42376b3)
   )
 
-  (wire (pts (xy 256.54 114.3) (xy 309.88 114.3))
-    (stroke (width 0) (type default))
-    (uuid 42ee8fd3-c5ca-4e69-b5e8-2338a02bc7fb)
-  )
   (wire (pts (xy 210.82 91.44) (xy 229.87 91.44))
     (stroke (width 0) (type default))
     (uuid 45450865-763b-408e-a549-65ee09a9c865)
@@ -2046,10 +1965,6 @@
   (wire (pts (xy 213.36 124.46) (xy 215.9 124.46))
     (stroke (width 0) (type default))
     (uuid 45674ff0-b8af-44c6-9dbb-67893992571c)
-  )
-  (wire (pts (xy 309.88 127) (xy 309.88 132.08))
-    (stroke (width 0) (type default))
-    (uuid 460d57f6-a23c-4915-9952-bc68b41de905)
   )
   (wire (pts (xy 210.82 162.56) (xy 250.19 162.56))
     (stroke (width 0) (type default))
@@ -2160,10 +2075,6 @@
     (stroke (width 0) (type default))
     (uuid 5b764380-c48e-4163-9152-67993a921d25)
   )
-  (wire (pts (xy 256.54 114.3) (xy 256.54 149.86))
-    (stroke (width 0) (type default))
-    (uuid 5c4ae5a9-3957-4781-96af-f818fd4f6db9)
-  )
   (wire (pts (xy 76.2 266.7) (xy 76.2 271.78))
     (stroke (width 0) (type default))
     (uuid 5eff02eb-7aae-437d-9ff4-a6c45d9d75e2)
@@ -2176,14 +2087,6 @@
     (stroke (width 0) (type default))
     (uuid 64926684-4b98-4fdb-a745-c7c89b2985e6)
   )
-  (wire (pts (xy 317.5 132.08) (xy 317.5 134.62))
-    (stroke (width 0) (type default))
-    (uuid 673dd7c5-f966-4a1a-8818-a03b78b07dda)
-  )
-  (wire (pts (xy 317.5 114.3) (xy 317.5 121.92))
-    (stroke (width 0) (type default))
-    (uuid 686a42c7-e7b2-4006-beb6-55dd6b561640)
-  )
   (wire (pts (xy 320.04 45.72) (xy 355.6 45.72))
     (stroke (width 0) (type default))
     (uuid 6ded7703-fcf2-4e5e-b4ac-13c7b6b4ff1d)
@@ -2193,17 +2096,13 @@
     (uuid 6e844881-c401-440f-af71-460cd8ce3c1c)
   )
 
-  (wire (pts (xy 309.88 114.3) (xy 317.5 114.3))
+  (wire (pts (xy 210.82 149.86) (xy 213.36 149.86))
     (stroke (width 0) (type default))
-    (uuid 6f23c3ae-0536-40cc-b59f-f5aed386baa0)
+    (uuid 6ef8bfdd-af6a-4862-b496-14153610965c)
   )
   (wire (pts (xy 266.7 187.96) (xy 266.7 190.5))
     (stroke (width 0) (type default))
     (uuid 6f51091c-9d57-4973-941c-e4c8cf35f3a4)
-  )
-  (wire (pts (xy 322.58 109.22) (xy 317.5 109.22))
-    (stroke (width 0) (type default))
-    (uuid 6fb3bb73-9912-4dbb-8e85-fc553ba6d48c)
   )
   (wire (pts (xy 210.82 119.38) (xy 213.36 119.38))
     (stroke (width 0) (type default))
@@ -2212,10 +2111,6 @@
   (wire (pts (xy 199.39 243.84) (xy 190.5 243.84))
     (stroke (width 0) (type default))
     (uuid 70ff94ad-3881-4353-98d7-1d4cffd9345b)
-  )
-  (wire (pts (xy 317.5 109.22) (xy 317.5 106.68))
-    (stroke (width 0) (type default))
-    (uuid 71649126-c8dd-4910-9bcb-92e1f483caa3)
   )
   (bus (pts (xy 129.54 99.06) (xy 118.11 99.06))
     (stroke (width 0) (type default))
@@ -2234,10 +2129,6 @@
   (wire (pts (xy 93.98 43.18) (xy 93.98 45.72))
     (stroke (width 0) (type default))
     (uuid 75c1ae10-83da-4790-ac18-9619c0f37112)
-  )
-  (wire (pts (xy 309.88 132.08) (xy 317.5 132.08))
-    (stroke (width 0) (type default))
-    (uuid 791dab66-0227-43a4-ac52-0588710516fd)
   )
   (wire (pts (xy 167.64 243.84) (xy 167.64 245.11))
     (stroke (width 0) (type default))
@@ -2260,10 +2151,6 @@
     (uuid 828b1a57-7de2-4fba-9200-0d612b753b07)
   )
 
-  (wire (pts (xy 322.58 111.76) (xy 317.5 111.76))
-    (stroke (width 0) (type default))
-    (uuid 8297a7cf-3e16-4447-8427-75ab38159e89)
-  )
   (wire (pts (xy 81.28 233.68) (xy 81.28 231.14))
     (stroke (width 0) (type default))
     (uuid 82ad4554-8918-49f0-844d-b1fb05d1afc2)
@@ -2497,10 +2384,6 @@
     (stroke (width 0) (type default))
     (uuid b5260375-f764-44d0-b0b5-dbacedd912fc)
   )
-  (wire (pts (xy 210.82 149.86) (xy 256.54 149.86))
-    (stroke (width 0) (type default))
-    (uuid b5cf1733-d07a-4cc1-8242-edda71d7e845)
-  )
   (wire (pts (xy 320.04 66.04) (xy 355.6 66.04))
     (stroke (width 0) (type default))
     (uuid b7970ee9-4feb-434c-b2f5-813481564e85)
@@ -2713,10 +2596,6 @@
     (stroke (width 0) (type default))
     (uuid f2a46c99-a614-4c8e-85c3-e7e383168519)
   )
-  (wire (pts (xy 317.5 111.76) (xy 317.5 114.3))
-    (stroke (width 0) (type default))
-    (uuid f5717176-23ff-40d7-8025-593f95728bff)
-  )
   (wire (pts (xy 81.28 238.76) (xy 81.28 236.22))
     (stroke (width 0) (type default))
     (uuid f59e45a4-98b0-4d7d-ac0b-7df471c91f06)
@@ -2757,10 +2636,6 @@
   (wire (pts (xy 307.34 149.86) (xy 317.5 149.86))
     (stroke (width 0) (type default))
     (uuid fb3c3926-1f10-41f9-ad37-e5c2189da3eb)
-  )
-  (wire (pts (xy 327.66 116.84) (xy 327.66 118.11))
-    (stroke (width 0) (type default))
-    (uuid fbe97082-195d-414a-aed9-45c9960992b9)
   )
   (wire (pts (xy 106.68 81.28) (xy 144.78 81.28))
     (stroke (width 0) (type default))
@@ -4256,13 +4131,6 @@
     (effects (font (size 4 4) (thickness 1.6) bold) (justify left top))
     (uuid 5daef22b-b105-4539-9ebf-7cd314ec3bb5)
   )
-  (text_box "10k NTC motor temperature measurement."
-    (at 340.36 106.68 0) (size 16.51 7.62)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 860afef3-3123-4c09-8412-b8893fa1f13b)
-  )
   (text_box "VccIO"
     (at 187.96 231.14 0) (size 7.62 3.81)
     (stroke (width 0) (type default))
@@ -4476,7 +4344,7 @@
     (pin "1" (uuid e5ab20c1-55f9-49c6-b49d-e529520ec3ca))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR095") (unit 1)
         )
       )
@@ -4501,7 +4369,7 @@
     (pin "1" (uuid b349db2c-ba04-42b4-b04e-f1fa2c794677))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0104") (unit 1)
         )
       )
@@ -4526,7 +4394,7 @@
     (pin "1" (uuid 499e2df9-5307-4077-98df-8353765e9fe8))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0114") (unit 1)
         )
       )
@@ -4567,7 +4435,7 @@
     (pin "2" (uuid fa455758-8835-468a-b149-89d9a81803a7))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C45") (unit 1)
         )
       )
@@ -4592,7 +4460,7 @@
     (pin "1" (uuid 55341fc0-d90c-4fc3-9b74-7b3fc6c12ad9))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0109") (unit 1)
         )
       )
@@ -4633,7 +4501,7 @@
     (pin "2" (uuid 61d79938-6ffd-4d28-94c4-ca0844368a60))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C48") (unit 1)
         )
       )
@@ -4658,7 +4526,7 @@
     (pin "1" (uuid 0afbc3bf-2036-434f-8ddb-2d9cd3fcb736))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0124") (unit 1)
         )
       )
@@ -4683,7 +4551,7 @@
     (pin "1" (uuid 86862628-931d-4f2a-8e00-de85755f414e))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR094") (unit 1)
         )
       )
@@ -4708,49 +4576,8 @@
     (pin "1" (uuid d2dc26ab-153a-44bf-91bb-b6d7c0ea25c2))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0126") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 309.88 124.46 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 15ea4e63-d270-4576-a4e1-24cfd33d1ff5)
-    (property "Reference" "C37" (at 306.07 123.19 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n 6V3" (at 303.53 127 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 309.88 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 309.88 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Length" "1.6" (at 309.88 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Width" "0.9" (at 309.88 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Capa 0603" (at 309.88 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Man." "Eurocircuit" (at 309.88 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Man. Ref." "GPC0402104-16" (at 309.88 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2f214844-0786-495d-a0a1-65f795d398c5))
-    (pin "2" (uuid 0f3c42d5-cc3c-4d88-8e8a-95ede2ae47e4))
-    (instances
-      (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
-          (reference "C37") (unit 1)
         )
       )
     )
@@ -4774,7 +4601,7 @@
     (pin "1" (uuid c01db3c5-82c8-49a6-80d7-7e5241f2f515))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "TP13") (unit 1)
         )
       )
@@ -4799,33 +4626,8 @@
     (pin "1" (uuid 9af579c0-bb03-4797-8b29-1904a36fba91))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0120") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 317.5 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1b0b5d97-6258-4421-803e-4bd626dbd34f)
-    (property "Reference" "#PWR0102" (at 317.5 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 317.5 101.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 317.5 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 317.5 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cdbb7b27-fbcc-44d3-974c-a5dbb1a4e5d0))
-    (instances
-      (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
-          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -4849,7 +4651,7 @@
     (pin "1" (uuid 98ca8c56-25d2-4270-8c6f-4babebecf0a2))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0101") (unit 1)
         )
       )
@@ -4874,7 +4676,7 @@
     (pin "1" (uuid a0b228ac-ae06-4d3e-a80f-4baee0408423))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0127") (unit 1)
         )
       )
@@ -4981,7 +4783,7 @@
     (pin "73" (uuid 32421ead-8ef3-4d19-8539-e5060b0b57b7))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "U6") (unit 2)
         )
       )
@@ -5006,7 +4808,7 @@
     (pin "1" (uuid 8363f11c-b8c6-4cf1-b916-5ff559481b42))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "TP15") (unit 1)
         )
       )
@@ -5047,7 +4849,7 @@
     (pin "8" (uuid 99c1b7aa-1085-43a2-8231-7dddce11ebb6))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "U7") (unit 1)
         )
       )
@@ -5072,7 +4874,7 @@
     (pin "1" (uuid 21ceb0ec-1976-418e-a1ac-250e98f8c7ba))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0116") (unit 1)
         )
       )
@@ -5113,7 +4915,7 @@
     (pin "2" (uuid 1261be60-ce33-485b-802d-026c07d30e59))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C43") (unit 1)
         )
       )
@@ -5138,7 +4940,7 @@
     (pin "1" (uuid 94b8e53f-bdca-4be4-a7b2-bbabb759c6cf))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0113") (unit 1)
         )
       )
@@ -5179,7 +4981,7 @@
     (pin "8" (uuid c20ef74c-f41a-48a3-a0bb-0fca1ba84264))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "U7") (unit 3)
         )
       )
@@ -5220,7 +5022,7 @@
     (pin "2" (uuid 437ff009-705f-44d7-852a-41e77fe756dc))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "R19") (unit 1)
         )
       )
@@ -5245,7 +5047,7 @@
     (pin "1" (uuid d02a9a1e-d345-499c-83a3-bdb250fae2d0))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#FLG09") (unit 1)
         )
       )
@@ -5286,33 +5088,8 @@
     (pin "2" (uuid d7a4299a-14f3-4ed0-85d3-66ed740dccc6))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "D9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 327.66 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5bd0b970-a12a-4870-b9aa-979804961948)
-    (property "Reference" "#PWR0103" (at 327.66 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 327.66 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 327.66 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 327.66 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0bcf5486-6922-41d8-9a09-946a92a71cd9))
-    (instances
-      (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
-          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -5346,7 +5123,7 @@
     (pin "2" (uuid b0ee367b-db53-487c-84c5-1d254f524dc7))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "D10") (unit 1)
         )
       )
@@ -5371,7 +5148,7 @@
     (pin "1" (uuid 0eabfcfa-7566-4d45-8da9-b42a697baa03))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0128") (unit 1)
         )
       )
@@ -5412,7 +5189,7 @@
     (pin "2" (uuid fb54c5a7-72cd-4798-940b-a8c3f94cbf15))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C47") (unit 1)
         )
       )
@@ -5437,7 +5214,7 @@
     (pin "1" (uuid 98452169-db55-4cc0-a4c9-6cdb6834ceee))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR091") (unit 1)
         )
       )
@@ -5478,7 +5255,7 @@
     (pin "2" (uuid f695679c-d74b-4f11-a3c8-794afc048e26))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C44") (unit 1)
         )
       )
@@ -5521,7 +5298,7 @@
     (pin "4" (uuid a4eeac53-80de-425c-aa67-4a267a68affa))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "X3") (unit 1)
         )
       )
@@ -5546,7 +5323,7 @@
     (pin "1" (uuid e5a4d21f-95af-4c97-99b4-9b2bf4a3bbc0))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0118") (unit 1)
         )
       )
@@ -5587,7 +5364,7 @@
     (pin "2" (uuid 1ea419b6-4b0c-4157-9212-b47592ba9e87))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C39") (unit 1)
         )
       )
@@ -5612,7 +5389,7 @@
     (pin "1" (uuid d974debd-7373-4ba2-8d59-1dcb8b87be1c))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR096") (unit 1)
         )
       )
@@ -5637,7 +5414,7 @@
     (pin "1" (uuid f7352b00-b3a6-4c74-aa96-d56e9a4738a4))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "TP16") (unit 1)
         )
       )
@@ -5662,7 +5439,7 @@
     (pin "1" (uuid 830a3011-bd43-4faa-b2dd-38c7ce716486))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "TP14") (unit 1)
         )
       )
@@ -5687,7 +5464,7 @@
     (pin "1" (uuid ea45a70d-400c-4e94-9e05-36925521c3f1))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0117") (unit 1)
         )
       )
@@ -5728,8 +5505,33 @@
     (pin "2" (uuid b3e0be63-1ef0-4ee5-a19a-7ca8075d4e84))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C35") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint_Flag") (at 213.36 149.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 86c8e8b3-d1d3-40cd-b6af-fbedd8fd8e07)
+    (property "Reference" "TP25" (at 218.44 146.05 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "TestPoint_Flag" (at 212.09 149.733 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "Library_Pollen:TestPoint_Line_0.2x0.8mm" (at 218.44 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 218.44 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bc8315f0-bf4e-4ea3-9dd6-7f61e9e8c50c))
+    (instances
+      (project "elec_Poulpe_3d"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
+          (reference "TP25") (unit 1)
         )
       )
     )
@@ -5753,7 +5555,7 @@
     (pin "1" (uuid b550046e-ad8c-466b-ab31-d8b2129e222d))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0123") (unit 1)
         )
       )
@@ -5778,7 +5580,7 @@
     (pin "1" (uuid 92e05159-1bb9-4b68-9a8b-026ecbb95bea))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR098") (unit 1)
         )
       )
@@ -5813,7 +5615,7 @@
     (pin "2" (uuid e07dad67-ae5f-4646-bb4e-5db250e0a4c7))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "D12") (unit 1)
         )
       )
@@ -5920,7 +5722,7 @@
     (pin "73" (uuid 51018721-60e0-4efa-9b12-db1039275df4))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "U6") (unit 1)
         )
       )
@@ -5945,7 +5747,7 @@
     (pin "1" (uuid d6ee2e1c-9204-4d09-aa5e-a009be17fb73))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0115") (unit 1)
         )
       )
@@ -5970,7 +5772,7 @@
     (pin "1" (uuid 77dc697c-9d1e-4284-8254-b9e876ac9556))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "TP17") (unit 1)
         )
       )
@@ -5995,7 +5797,7 @@
     (pin "1" (uuid 143f80e1-88c1-4ed3-8848-221b170c1534))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0125") (unit 1)
         )
       )
@@ -6020,7 +5822,7 @@
     (pin "1" (uuid b30e859d-8468-47b4-9f85-f37d2cf2babd))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0121") (unit 1)
         )
       )
@@ -6045,7 +5847,7 @@
     (pin "1" (uuid c9123dd3-23d2-4ff7-aeb5-fbd43e9e97fa))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0111") (unit 1)
         )
       )
@@ -6080,7 +5882,7 @@
     (pin "2" (uuid e5e2806b-650d-4625-831a-4c502c83de7f))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "D11") (unit 1)
         )
       )
@@ -6121,7 +5923,7 @@
     (pin "2" (uuid 332b6709-3ea7-43bc-b52a-315ffe387c45))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C42") (unit 1)
         )
       )
@@ -6162,7 +5964,7 @@
     (pin "8" (uuid 507b79b2-1a64-4bd5-a795-d3839270703a))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "U7") (unit 4)
         )
       )
@@ -6201,7 +6003,7 @@
     (pin "MP" (uuid bbe48357-8768-4580-827d-4440bddbc830))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "J12") (unit 1)
         )
       )
@@ -6226,7 +6028,7 @@
     (pin "1" (uuid 545c5871-16a0-4bda-8a93-10eef3d29708))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0106") (unit 1)
         )
       )
@@ -6251,7 +6053,7 @@
     (pin "1" (uuid 2c9ef181-88c2-48fb-b838-fbac09932510))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#FLG08") (unit 1)
         )
       )
@@ -6276,7 +6078,7 @@
     (pin "1" (uuid 3ab08fa6-9ac7-41d6-8f61-692f878d91c0))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "TP12") (unit 1)
         )
       )
@@ -6301,7 +6103,7 @@
     (pin "1" (uuid c936f491-fd78-49bc-91b4-d03074709bd4))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0100") (unit 1)
         )
       )
@@ -6351,7 +6153,7 @@
     (pin "13" (uuid 75300a39-e0a2-4db2-a283-4f8a9cb83404))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "J10") (unit 1)
         )
       )
@@ -6376,7 +6178,7 @@
     (pin "1" (uuid a2d7c9e3-4312-40bb-aaf9-54c3f86bf88e))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR099") (unit 1)
         )
       )
@@ -6417,7 +6219,7 @@
     (pin "2" (uuid ae940fde-09a9-4c4c-abeb-01a293b169b8))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C40") (unit 1)
         )
       )
@@ -6458,7 +6260,7 @@
     (pin "2" (uuid 9c3a4aa2-f53c-43c6-a3b5-3eeac9d2a9d5))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C49") (unit 1)
         )
       )
@@ -6499,7 +6301,7 @@
     (pin "8" (uuid 22a9dae8-87a6-4ac0-8751-bc3a964935b2))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "U7") (unit 2)
         )
       )
@@ -6524,7 +6326,7 @@
     (pin "1" (uuid cc02c841-f36c-4eef-9d39-5645d3ba32ba))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0108") (unit 1)
         )
       )
@@ -6565,50 +6367,8 @@
     (pin "2" (uuid 1a167149-f65a-4b1c-8a76-aa419a05ce63))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C36") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin") (at 327.66 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ceb42307-fec4-49f9-9cc4-33b6e0148482)
-    (property "Reference" "J11" (at 330.2 109.5756 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Pico 2" (at 330.2 112.1156 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" (at 327.66 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 327.66 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Motor temperature Connec." (at 327.66 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Man." "Molex" (at 327.66 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Man. Ref." "53261-0271" (at 327.66 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Width" "5.2" (at 327.66 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Length" "7.65" (at 327.66 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 34b98f9b-1907-4cde-bcda-0e5f704f60c5))
-    (pin "2" (uuid c2538d43-cf55-42a0-8682-dcf4bc532f0e))
-    (pin "MP" (uuid 4545ebae-db8e-4125-9787-a1d8ebc0f319))
-    (instances
-      (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
-          (reference "J11") (unit 1)
         )
       )
     )
@@ -6648,7 +6408,7 @@
     (pin "2" (uuid 4d8f46ba-cd18-46c4-8408-9d4098020afb))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C38") (unit 1)
         )
       )
@@ -6689,7 +6449,7 @@
     (pin "2" (uuid 4305684e-0075-4add-951c-9216deda6ec8))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "R20") (unit 1)
         )
       )
@@ -6730,33 +6490,8 @@
     (pin "2" (uuid 99938efa-dca1-4970-8fd6-83bb2ce6781f))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C50") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 317.5 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d17f4df3-055e-4401-866e-2fcabef61ab6)
-    (property "Reference" "#PWR0105" (at 317.5 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 317.5 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 317.5 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 317.5 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 652e916f-930e-431d-b525-cc4d13ee6326))
-    (instances
-      (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
-          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -6780,7 +6515,7 @@
     (pin "1" (uuid 6d5a0530-9150-40ad-8961-01e3fc54d9f6))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR097") (unit 1)
         )
       )
@@ -6805,7 +6540,7 @@
     (pin "1" (uuid 31b5114f-0fc5-4d8a-b7db-14f3fc953a73))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR092") (unit 1)
         )
       )
@@ -6830,7 +6565,7 @@
     (pin "1" (uuid 53dd9428-2e19-4829-b267-08f73afdc895))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0107") (unit 1)
         )
       )
@@ -6871,7 +6606,7 @@
     (pin "2" (uuid fe1f3125-6305-48dc-94fd-0299fb143e32))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C41") (unit 1)
         )
       )
@@ -6912,7 +6647,7 @@
     (pin "2" (uuid d6472777-deae-44fa-91b0-5e4fb6eb9abe))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "R18") (unit 1)
         )
       )
@@ -6953,7 +6688,7 @@
     (pin "2" (uuid 03cdda7d-6d5b-44cd-80fe-281fa2080862))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C51") (unit 1)
         )
       )
@@ -6978,49 +6713,8 @@
     (pin "1" (uuid 774eb62d-2dd0-4318-84da-f4bf89ee4bf0))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR093") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 317.5 124.46 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ea3cb797-8be9-4f2b-b5e4-65bf08b24a0c)
-    (property "Reference" "R21" (at 321.31 121.92 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "4k7" (at 321.31 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 317.5 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 317.5 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Res. 0603" (at 317.5 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Man." "Eurocircuit" (at 317.5 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Man. Ref." "GPR04024K7" (at 317.5 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Length" "1.6" (at 317.5 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Width" "0.9" (at 317.5 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b5812e4c-044a-4541-880d-e95e0860ec2b))
-    (pin "2" (uuid 4e39a320-5cf4-42b4-90df-2d04e99da968))
-    (instances
-      (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
-          (reference "R21") (unit 1)
         )
       )
     )
@@ -7044,7 +6738,7 @@
     (pin "1" (uuid c498ac31-6d46-456e-8550-fa27f1f03908))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0122") (unit 1)
         )
       )
@@ -7069,7 +6763,7 @@
     (pin "1" (uuid 108de5a8-2619-46c0-88ca-fb2ed9045c5e))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0112") (unit 1)
         )
       )
@@ -7110,7 +6804,7 @@
     (pin "2" (uuid 84d9732a-0239-47d3-94d5-b80875376a98))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "C46") (unit 1)
         )
       )
@@ -7135,7 +6829,7 @@
     (pin "1" (uuid 773bcb6a-5097-45ce-b7b8-b1ece3a5f812))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0110") (unit 1)
         )
       )
@@ -7160,7 +6854,7 @@
     (pin "1" (uuid 0a9e2458-e036-4683-a5fb-88c5789e8cd9))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#FLG07") (unit 1)
         )
       )
@@ -7185,7 +6879,7 @@
     (pin "1" (uuid f447cb3f-3eeb-4203-abd9-18f5189ff6bd))
     (instances
       (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976/c09efd22-4014-445d-920c-7460795cb498"
+        (path "/bc05f5da-608c-4912-90e4-36b13d989976/8eb51535-5d23-4a0c-93b9-af2d956b4998"
           (reference "#PWR0119") (unit 1)
         )
       )
