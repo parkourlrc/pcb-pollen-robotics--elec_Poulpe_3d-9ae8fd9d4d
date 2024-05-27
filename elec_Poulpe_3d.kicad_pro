@@ -500,6 +500,14 @@
       "FOC Controller A"
     ],
     [
+      "35aeea84-c137-4548-a056-095e903e7651",
+      "FOC Controller B"
+    ],
+    [
+      "c643c8db-531a-4cdb-8a25-c8cd5ad882d1",
+      "FOC Controller C"
+    ],
+    [
       "80f10f36-cf38-4d13-8d0d-928ca044e10d",
       "EtherCAT"
     ],
