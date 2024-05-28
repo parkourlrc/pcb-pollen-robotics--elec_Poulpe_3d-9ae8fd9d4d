@@ -5709,7 +5709,7 @@
     (property "Value" "SlimStack Receptacle" (at 363.22 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_SlimStack_52991-0208_2x10_P0.50mm_Vertical" (at 360.68 55.88 0)
+    (property "Footprint" "Library_Pollen:Molex_SlimStack_529910208" (at 360.68 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 360.68 55.88 0)
