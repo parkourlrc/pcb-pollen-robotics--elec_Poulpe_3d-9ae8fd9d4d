@@ -3099,31 +3099,6 @@
     )
   )
 
-  (sheet (at 30.48 138.43) (size 25.4 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e9b37503-64bd-4e51-8224-69c7137bd806)
-    (property "Sheetname" "Dynamixel" (at 30.48 137.7184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "dynamixel.kicad_sch" (at 30.48 154.2546 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "Dynamixel_dir" input (at 55.88 143.51 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b38f6c5c-0fc7-44c2-9cc8-b497fbe1e07c)
-    )
-    (pin "{USART1}" input (at 55.88 146.05 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 43b6dc74-f84f-4500-956b-bd42728664a4)
-    )
-    (instances
-      (project "elec_Poulpe_3d"
-        (path "/bc05f5da-608c-4912-90e4-36b13d989976" (page "9"))
-      )
-    )
-  )
-
   (sheet_instances
     (path "/" (page "1"))
   )

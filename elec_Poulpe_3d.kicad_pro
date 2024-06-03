@@ -510,10 +510,6 @@
     [
       "80f10f36-cf38-4d13-8d0d-928ca044e10d",
       "EtherCAT"
-    ],
-    [
-      "e9b37503-64bd-4e51-8224-69c7137bd806",
-      "Dynamixel"
     ]
   ],
   "text_variables": {}
