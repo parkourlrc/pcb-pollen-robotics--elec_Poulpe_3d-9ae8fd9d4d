@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (title "Poulpe_2d")
-    (date "2024-05-20")
+    (title "Poulpe_3d")
+    (date "2024-05-23")
     (rev "A1")
     (company "Pollen Robotics")
   )
@@ -518,7 +518,7 @@
       (property "Value" "LAN9252" (at 5.08 -106.68 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm" (at 66.675 -106.68 0)
+      (property "Footprint" "" (at 66.675 -106.68 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
       (property "Datasheet" "" (at 66.04 -30.48 0)
@@ -2051,6 +2051,7 @@
   )
 
   (bus_alias "SPI3" (members "3_CS" "3_SCK" "3_MISO" "3_MOSI"))
+  (bus_alias "USART1" (members "Tx" "Rx"))
   (junction (at 157.48 116.84) (diameter 0) (color 0 0 0 0)
     (uuid 0109628a-9a26-4384-995d-6ac37f7a861a)
   )
