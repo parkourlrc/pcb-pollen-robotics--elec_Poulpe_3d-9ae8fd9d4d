@@ -6,7 +6,7 @@
 
   (title_block
     (title "Poulpe_3d")
-    (date "2024-05-23")
+    (date "2024-06-05")
     (rev "A1")
     (company "Pollen Robotics")
   )
@@ -2315,7 +2315,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f64cd34e-10e2-481d-8e05-e9a0f70e8a24)
   )
-  (text "20/05/2024" (at 36.83 34.29 0)
+  (text "05/06/2024" (at 36.83 34.29 0)
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid fd8ecdb1-38b8-46de-af7f-1da0a43da889)
   )
