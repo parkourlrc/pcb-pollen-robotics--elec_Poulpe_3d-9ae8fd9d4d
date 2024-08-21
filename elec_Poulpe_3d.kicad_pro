@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "elec_Poulpe_3d.step",
+      "step": "fab/elec_Poulpe_3d.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
