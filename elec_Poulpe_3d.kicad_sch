@@ -6629,7 +6629,7 @@
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid 62d7d4ff-c831-4135-bec0-50323fd58d17)
   )
-  (text "A2" (at 16.51 40.64 0)
+  (text "B1" (at 16.51 40.64 0)
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid 883fbd4a-bf82-4d27-9b18-ae46f3486c3d)
   )

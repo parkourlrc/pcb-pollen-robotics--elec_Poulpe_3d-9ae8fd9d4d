@@ -5237,7 +5237,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 325468ea-f00c-4baa-82d8-61a99448199e)
   )
-  (text "ToDo: check the fun stuff that can be done with all that GPIOs."
+  (text "ToDo: check the fun stuff that can be done with all that GPIOs.\n - one can plus the enable of the foc/bridge so that it can\n   bypass a firmware issue."
     (at 252.73 160.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e48b094-9606-4fa0-8599-63c81a74a501)
